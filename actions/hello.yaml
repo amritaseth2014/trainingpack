@@ -3,11 +3,11 @@ name: hello
 pack: polling_sensor
 runner_type: "python-script"
 description: hello python!
-enable : true
+enable: true
 entry_point: hello.py
 parameters:
 	message:
-		type:string
+		type: string
 		description: print hello
 		required: true
 		position: 1
