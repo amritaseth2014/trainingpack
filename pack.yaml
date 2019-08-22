@@ -2,9 +2,6 @@
 ref: polling_sensor
 name: Polling Sensor Api
 description: Polling Sensor Api For testing purpose
-keyword:
-	- Api
-	- poliing
 version: 0.1.0
 author: Amrita Seth
 email: amrita@nihilent.com
