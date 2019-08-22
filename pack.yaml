@@ -1,7 +1,7 @@
 ---
 ref: polling_sensor
 name: Polling Sensor Api
-description:Polling Sensor Api For testing purpose
+description: Polling Sensor Api For testing purpose
 keyword:
 	- Api
 	- poliing
