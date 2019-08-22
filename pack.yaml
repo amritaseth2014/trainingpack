@@ -1,5 +1,5 @@
 ---
-ref: polling_sensor
+ref: training
 name: Polling Sensor Api
 description: Polling Sensor Api For testing purpose
 version: 0.1.0

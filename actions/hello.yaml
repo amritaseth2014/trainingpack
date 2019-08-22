@@ -1,6 +1,5 @@
-...
 name: hello
-pack: polling_sensor
+pack: training
 runner_type: "python-script"
 description: hello python!
 enable: true
