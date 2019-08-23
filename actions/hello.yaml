@@ -1,3 +1,4 @@
+---
 name: hello
 pack: training
 runner_type: "python-script"
