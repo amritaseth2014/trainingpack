@@ -3,7 +3,7 @@ name: hello
 pack: training
 runner_type: "python-script"
 description: hello python!
-enable: true
+enabled: true
 entry_point: hello.py
 parameters:
     message:
