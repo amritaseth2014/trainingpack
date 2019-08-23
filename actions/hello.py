@@ -1,13 +1,8 @@
----
-name: hello
-pack: training
-runner_type: "python-script"
-description: hello python!
-enable: true
-entry_point: hello.py
-parameters:
-    message:
-        type: string
-        description: say hello
-        required: true
-        position: 1
+import sys
+from st2common.runners.base_action import Action
+
+class MyAction(Action):
+
+    def run(self, message):
+        print(message)
+        return(True,message)
