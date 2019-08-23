@@ -6,8 +6,8 @@ description: hello python!
 enable: true
 entry_point: hello.py
 parameters:
-	message:
-		type: string
-		description: print hello
-		required: true
-		position: 1
+  message:
+	  type: string
+	  description: print hello
+	  required: true
+	  position: 1
