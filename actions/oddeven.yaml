@@ -1,5 +1,5 @@
 ---
-name: GreatestNumber
+name: OddEven
 pack: training
 runner_type: "python-script"
 description: compoundattempt

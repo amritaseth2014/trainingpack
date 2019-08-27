@@ -5,7 +5,7 @@ class MyAction(Action):
 
     def run(self,a):
 
-        if a%b==0:
+        if a%2==0:
                 
             print("{} is our even number".format(a))
         
