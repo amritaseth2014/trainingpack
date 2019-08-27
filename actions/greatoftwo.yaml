@@ -4,7 +4,7 @@ pack: training
 runner_type: "python-script"
 description: compoundattempt
 enabled: true
-entry_point: roi.py
+entry_point: greatoftwo.py
 parameters:
   a:
     type: integer
