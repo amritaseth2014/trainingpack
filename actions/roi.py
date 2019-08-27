@@ -9,9 +9,5 @@ class MyAction(Action):
         A = p+I
         total = (math+science+geography)
         
-        
-
-        print("Interest of principle of {} , Rate of Interest {} and for Time Period{}  is {}".format(p,r,t, I))
-        print("Total Amount is {}".format(A))
-        print("Total Marks in Final Exam is {}.format"(total))
+        print("Total Marks in Final Exam is {}".format(total))
         return(True,total)
