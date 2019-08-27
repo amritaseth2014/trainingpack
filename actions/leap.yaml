@@ -6,13 +6,9 @@ description: compoundattempt
 enabled: true
 entry_point: leap.py
 parameters:
-  a:
+  year:
     type: integer
     description: comapare1
     required: true
     position: 1
-  b:
-    type: integer
-    description: compare2
-    required: true
-    position: 2    
+
