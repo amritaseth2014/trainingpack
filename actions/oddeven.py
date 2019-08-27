@@ -3,13 +3,13 @@ from st2common.runners.base_action import Action
 
 class MyAction(Action):
 
-    def run(self,a,b):
+    def run(self,a):
 
         if a%b==0:
                 
             print("{} is our even number".format(a))
         
         else:
-            print("{} is our odd number".format(b))
+            print("{} is our odd number".format(a))
 
-        return(True,a,b)
+        return(True,a)
