@@ -1,0 +1,23 @@
+---
+name: addTwoNumbers
+pack: training
+runner_type: "python-script"
+description: compoundattempt
+enabled: true
+entry_point: roi.py
+parameters:
+  p:
+    type: integer
+    description: number 1
+    required: true
+    position: 1
+  r:
+    type: integer
+    description: number 2
+    required: true
+    position: 2    
+  t:
+    type: integer
+    description: number 3
+    required: true
+    position: 3
