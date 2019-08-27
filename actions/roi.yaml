@@ -6,18 +6,18 @@ description: compoundattempt
 enabled: true
 entry_point: roi.py
 parameters:
-  p:
+  math:
     type: integer
-    description: number 1
+    description: mathmarks
     required: true
     position: 1
-  r:
+  science:
     type: integer
-    description: number 2
+    description: sciencemark
     required: true
     position: 2    
-  t:
+  geography:
     type: integer
-    description: number 3
+    description: geographymark
     required: true
     position: 3
