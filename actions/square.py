@@ -7,5 +7,5 @@ class MyAction(Action):
         if b==l:  
             print("This box is a Square")     
         else:
-            print("Rectangle")
+            print("This box is not a square")
         return(True,b,l)
