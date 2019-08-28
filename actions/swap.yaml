@@ -1,10 +1,10 @@
 ---
-name: Square
+name: GreatestNumber1
 pack: training
 runner_type: "python-script"
 description: compoundattempt
 enabled: true
-entry_point: square.py
+entry_point: swap.py
 parameters:
   a:
     type: integer
@@ -16,3 +16,8 @@ parameters:
     description: compare2
     required: true
     position: 2
+  c:
+    type: integer
+    description: compare3
+    required: true
+    position: 3    
