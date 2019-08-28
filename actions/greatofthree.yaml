@@ -1,5 +1,5 @@
 ---
-name: GreatestNumber
+name: GreatestNumber1
 pack: training
 runner_type: "python-script"
 description: compoundattempt
