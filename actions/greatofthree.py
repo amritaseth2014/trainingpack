@@ -7,12 +7,12 @@ class MyAction(Action):
 
         if a>b and a>c:
                 
-            print("Our Greatest Number is".format(a))
+            print("Our Greatest Number is {}".format(a))
         
         elif b>a and b>c:
-            print("Our Greatest Number is".format(b))
+            print("Our Greatest Number is {}".format(b))
         
         else:
-            print("Our greatest Number is".format(c))
+            print("Our greatest Number is {}".format(c))
 
         return(True,a,b,c)
