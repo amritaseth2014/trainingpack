@@ -9,7 +9,7 @@ class MyAction(Action):
                 
             print("Our Greatest Number is".format(a))
         
-        else if b>a and b>c:
+        elif b>a and b>c:
             print("Our Greatest Number is".format(b))
         
         else:
