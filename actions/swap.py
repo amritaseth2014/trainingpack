@@ -7,5 +7,5 @@ class MyAction(Action):
         c=a
         a=b
         b=c             
-            print("Print {} {}".format(a,b))
+        print("Print {} {}".format(a,b))
         return(True,a,b)
