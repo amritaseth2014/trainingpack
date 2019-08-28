@@ -5,15 +5,14 @@ class MyAction(Action):
 
     def run(self,a,b,c):
 
-        if a>b && a>c:
+        if a>b and a>c:
                 
             print("Our Greatest Number is".format(a))
         
-        else if b>a && b>c:
+        else if b>a and b>c:
             print("Our Greatest Number is".format(b))
         
         else:
             print("Our greatest Number is".format(c))
 
         return(True,a,b,c)
-        
