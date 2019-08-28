@@ -15,9 +15,4 @@ parameters:
     type: integer
     description: compare2
     required: true
-    position: 2
-  c:
-    type: integer
-    description: compare3
-    required: true
-    position: 3    
+    position: 2  
